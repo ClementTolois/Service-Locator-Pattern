@@ -1,0 +1,40 @@
+{
+  "name": "service-locator-pattern",
+  "version": "0.1.0",
+  "description": "A personal project to explain the service locator pattern with typescript and unit testing",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementTolois/Service-Locator-Pattern.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "pattern",
+    "service",
+    "locator",
+    "unit",
+    "testing"
+  ],
+  "author": "Clément Tolois <clement.tolois@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClementTolois/Service-Locator-Pattern/issues"
+  },
+  "homepage": "https://github.com/ClementTolois/Service-Locator-Pattern#readme",
+  "devDependencies": {
+    "@jest/types": "^28.1.1",
+    "@types/jest": "^28.1.3",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
