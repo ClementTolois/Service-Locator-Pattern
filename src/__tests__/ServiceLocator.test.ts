@@ -15,6 +15,10 @@ describe("Basic service locator process", () => {
     test("ServiceLocator must throw an error if registering a service with an already existing key", () => {
         expect(() => serviceLocator.register("test", "test")).toThrow();
     }); 
+
+    test("ServiceLocator must throw an error if getting a service with an unknown key", () => {
+        expect(() => serviceLocator.get("unknown_service")).toThrow();
+    });
 });
 
 describe("Service locator with a concrete user service", () => {

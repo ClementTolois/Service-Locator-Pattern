@@ -20,6 +20,9 @@ export default class ServiceLocator {
     }
     
     public get(key: string): unknown {
+        if (!this._services[key]) {
+            throw new Error(`Service with key ${key} does not exist`);
+        }
         return this._services[key];
     }
 }
